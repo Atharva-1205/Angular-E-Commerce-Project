@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Carattere';
+    src: url('assets/Carattere-Regular.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
