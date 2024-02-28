@@ -1,0 +1,32 @@
+.slideshow{
+    height: 90vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.tagline{
+    text-align: center;
+}
+.tagline h1{
+    font-size: 7rem;
+}
+.tagline h2{
+    font-size: 5rem;
+}
+.section1{
+    height: 70vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: crimson;
+    height: 100%;
+    width: 50vw;
+}
+.box2{
+    background-color: royalblue;
+    height: 100%;
+    width: 50vw;
+}

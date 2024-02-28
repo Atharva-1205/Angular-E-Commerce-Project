@@ -1,8 +1,36 @@
 .footer{
-    background-color: gray;
-    min-height: 80%;
+    height: 40vh;
+    width: 100vw;
+    background-color: #1f1f1f;
+    color: ghostwhite;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .footer-list li{
     list-style-type: none;
+}
+.Social li{
+    list-style-type: none;
+}
+.Newsletter h4{
+    margin-bottom: 10px;
+}
+.Newsletter li{
+    list-style-type: none;
+}
+.join{
+    padding-left: 10px;
+    height: 50px;
+    width: 400px;
+    position: relative;
+    color: ghostwhite;
+    border: 2px solid ghostwhite;
+    background-color: #1f1f1f;
+}
+.btn{
+    height: 54px;
+    width: 80px;
+    position: relative;
+    border: 2px solid ghostwhite;
 }
