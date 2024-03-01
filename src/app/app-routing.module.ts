@@ -7,6 +7,7 @@ import { EyewearComponent } from './eyewear/eyewear.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { WatchesComponent } from './watches/watches.component';
 
 const routes: Routes = [
   {
@@ -26,8 +27,8 @@ const routes: Routes = [
     component:EyewearComponent
   },
   {
-    path:'accessories',
-    component:AccessoriesComponent
+    path:'watches',
+    component:WatchesComponent
   },
   {
     path:'about',

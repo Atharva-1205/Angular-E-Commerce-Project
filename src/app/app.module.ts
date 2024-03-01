@@ -13,6 +13,7 @@ import { EyewearComponent } from './eyewear/eyewear.component';
 import { FooterComponent } from './footer/footer.component';
 import { PerfumesComponent } from './perfumes/perfumes.component';
 import { HomeComponent } from './home/home.component';
+import { WatchesComponent } from './watches/watches.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomeComponent } from './home/home.component';
     EyewearComponent,
     FooterComponent,
     PerfumesComponent,
-    HomeComponent
+    HomeComponent,
+    WatchesComponent
   ],
   imports: [
     BrowserModule,
