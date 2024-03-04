@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PerfumesComponent } from './perfumes/perfumes.component';
 import { HomeComponent } from './home/home.component';
 import { WatchesComponent } from './watches/watches.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { WatchesComponent } from './watches/watches.component';
     FontAwesomeModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

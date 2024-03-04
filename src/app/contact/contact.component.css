@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 3%;
+}
+.form-sec{
+    display: flex;
+    margin: 3% 0%;
+}
+.box1{
+    height: 75vh;
+    width: 50vw;
+    background-color: crimson;
+}
+.box2{
+    height: 75vh;
+    width: 50vw;
+    background-color: royalblue;
+}
+.sign-up-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+.form-input{
+    width: 100%;
+    margin: 0 auto 20px;
+    line-height: 1;
+    text-align: left;
+    /* position: relative; */
+}
+.textarea{
+    resize: none;
+}
